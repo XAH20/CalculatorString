@@ -146,9 +146,9 @@ public class Calculator {
         return d.toString();
     }
 
-    /*
-    Проверка, является ли итоговый ответ числом
-    */
+
+    // Проверка, является ли итоговый ответ числом
+
     private static boolean checkResult(String result) {
         Pattern patternResult = Pattern.compile("[-]?([0-9]+[.])?[0-9]+");
         Matcher matcherResult = patternResult.matcher(result);
