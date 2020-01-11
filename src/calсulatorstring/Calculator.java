@@ -76,6 +76,7 @@ public class Calculator {
         -a+(-b)
         (-a)-b
         и т.д.
+        Нужно объединить с */
         */
         Pattern patternAdditionAndSubtraction = Pattern.compile
                 ("(([(]-?([0-9]+[.])?[0-9]+[)])|([-]?([0-9]+[.])?[0-9]+))[-+](([(]-?([0-9]+[.])?[0-9]+[)])|(([0-9]+[.])?[0-9]+))");
