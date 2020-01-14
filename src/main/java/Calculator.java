@@ -1,5 +1,3 @@
-package calсulatorstring;
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -76,7 +74,7 @@ public class Calculator {
         -a+(-b)
         (-a)-b
         и т.д.
-        Нужно объединить с */
+        Нужно объединить с умножением/делением
         */
         Pattern patternAdditionAndSubtraction = Pattern.compile
                 ("(([(]-?([0-9]+[.])?[0-9]+[)])|([-]?([0-9]+[.])?[0-9]+))[-+](([(]-?([0-9]+[.])?[0-9]+[)])|(([0-9]+[.])?[0-9]+))");
